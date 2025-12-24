@@ -89,7 +89,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 17bf80776f66ef14ea6e82c2b073f8e6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 37bc300fb02616644be4d0bf16fdcaa9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -101,7 +101,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 7a79716476b679247899119cff51d3ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: 58bdec95dff4b7f479a49fa450755f33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -190,7 +190,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _Anisotropy: 0
     - _BlendMode: 0
-    - _BottomHeight: 5
+    - _BottomHeight: 2
     - _BottomLerpMultiplier: -2
     - _ClearCoatEnabled: 1
     - _CoatMask: 0
@@ -216,6 +216,8 @@ Material:
     - _DstBlend2: 0
     - _EdgeFadeEnd: 0
     - _EdgeFadeStart: 17
+    - _Edge_Fade_End: 0
+    - _Edge_Fade_Start: 0.005
     - _Emission: 0
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
@@ -252,10 +254,11 @@ Material:
     - _Mettalic: 0
     - _MinHeight: 0.4
     - _NoiseHeight: 0.05
-    - _NoiseSparkling: 0
+    - _NoiseSparkling: 0.7
     - _NormalMapSpace: 0
     - _NormalScale: 1
     - _NormalStrength: 1
+    - _Normal_Strength: 1
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -275,6 +278,8 @@ Material:
     - _Smoothness: 0.63
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
+    - _SmoothnessStrength: 0.95
+    - _Smoothness_Strength: 0.62
     - _SnowGloss: 0
     - _SnowLevel: 1
     - _SparkleMix: 0
@@ -297,6 +302,7 @@ Material:
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _TesselationFactor: 64
+    - _Tesselation_Factor: 64
     - _TessellationBackFaceCullEpsilon: -0.25
     - _TessellationFactorMaxDistance: 150
     - _TessellationFactorMinDistance: 50
@@ -340,7 +346,9 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Main_Texture_Tiling: {r: 10, g: 10, b: 0, a: 0}
     - _NormalMapTiling: {r: 15, g: 15, b: 0, a: 0}
+    - _NormalMap_Tiling: {r: 10, g: 10, b: 0, a: 0}
     - _ST: {r: 0.05, g: 0.05, b: 0.5, a: 0.5}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

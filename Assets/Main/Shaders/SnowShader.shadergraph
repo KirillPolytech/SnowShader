@@ -1653,7 +1653,7 @@
     "m_ObjectId": "02c82e23fef149e687474bc8057e61ae",
     "m_Title": "Smoothness",
     "m_Position": {
-        "x": 3083.0,
+        "x": 3082.999755859375,
         "y": 1831.0
     }
 }
@@ -2590,7 +2590,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "272539db388c4a9baf25fa68008366e5",
     "m_Id": 0,
-    "m_DisplayName": "EdgeFadeEnd",
+    "m_DisplayName": "Edge Fade End",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3179,10 +3179,10 @@
     "m_Guid": {
         "m_GuidSerialized": "67403e38-c294-42b0-b64a-e6ea7bdd9758"
     },
-    "m_Name": "BaseMapTiling",
+    "m_Name": "Main Texture Tiling",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "BaseMapTiling",
-    "m_DefaultReferenceName": "_BaseMapTiling",
+    "m_RefNameGeneratedByDisplayName": "Main Texture Tiling",
+    "m_DefaultReferenceName": "_Main_Texture_Tiling",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -3405,7 +3405,7 @@
     "m_Title": "Deformation",
     "m_Position": {
         "x": 2187.0,
-        "y": -1709.0
+        "y": -1708.9996337890625
     }
 }
 
@@ -3609,7 +3609,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "46a239bb67344aa0a3c4535e1afb4d6c",
     "m_Id": 0,
-    "m_DisplayName": "NoiseSparkling",
+    "m_DisplayName": "Smoothness Strength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3712,7 +3712,7 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"17bf80776f66ef14ea6e82c2b073f8e6\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -3734,8 +3734,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 4597.0,
-            "y": 753.0,
+            "x": 4572.0,
+            "y": 642.0,
             "width": 206.0,
             "height": 130.0
         }
@@ -3795,7 +3795,7 @@
     "m_ObjectId": "4a7b6824ddb04ec18f3464a75fd59e5d",
     "m_Title": "Calculate color",
     "m_Position": {
-        "x": 2828.0,
+        "x": 2827.999755859375,
         "y": 224.0
     }
 }
@@ -3884,7 +3884,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "4b91c5a9bd614d82aa232059a5a9487c",
     "m_Id": 0,
-    "m_DisplayName": "Noise Tiling",
+    "m_DisplayName": "Smoothness tiling",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4161,8 +4161,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 5143.99951171875,
-            "y": 764.9999389648438,
+            "x": 5119.0,
+            "y": 654.0,
             "width": 132.0,
             "height": 94.0
         }
@@ -4767,7 +4767,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "6349a8ab4ad4423ca6a54ec1bd62c33a",
     "m_Id": 0,
-    "m_DisplayName": "NormalStrength",
+    "m_DisplayName": "Normal Strength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4918,8 +4918,8 @@
     "m_ObjectId": "684f6e5c459543e0a8283fb88782788f",
     "m_Title": "Calculate normal",
     "m_Position": {
-        "x": 4572.0,
-        "y": 659.0
+        "x": 4546.99951171875,
+        "y": 547.9998779296875
     }
 }
 
@@ -5304,7 +5304,7 @@
     "m_Title": "Noise Height",
     "m_Position": {
         "x": 93.0,
-        "y": -1378.0
+        "y": -1377.9998779296875
     }
 }
 
@@ -5663,7 +5663,7 @@
     "m_ObjectId": "7cd965042bfb4bddb5cb00abb9907e0d",
     "m_Title": "Normal map",
     "m_Position": {
-        "x": 3044.0,
+        "x": 3043.999755859375,
         "y": 1233.0
     }
 }
@@ -6457,10 +6457,10 @@
     "m_Guid": {
         "m_GuidSerialized": "b003017c-f63e-443f-80ca-4b9869bca268"
     },
-    "m_Name": "NormalStrength",
+    "m_Name": "Normal Strength",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NormalStrength",
-    "m_DefaultReferenceName": "_NormalStrength",
+    "m_RefNameGeneratedByDisplayName": "Normal Strength",
+    "m_DefaultReferenceName": "_Normal_Strength",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -6556,7 +6556,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "8fd0c38e906b44f6940e792a97650723",
     "m_Id": 0,
-    "m_DisplayName": "NormalMapTiling",
+    "m_DisplayName": "NormalMap Tiling",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -6690,10 +6690,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 4837.99951171875,
-            "y": 717.9999389648438,
+            "x": 4813.0,
+            "y": 607.0,
             "width": 132.0,
-            "height": 94.00006103515625
+            "height": 94.0
         }
     },
     "m_Slots": [
@@ -6723,7 +6723,7 @@
     "m_Guid": {
         "m_GuidSerialized": "fa0c090a-213b-4429-9c6f-c7db24774027"
     },
-    "m_Name": "Noise Tiling",
+    "m_Name": "Smoothness tiling",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector2_7B6887A",
@@ -6859,7 +6859,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "97982a932f1943f6a7a56e479e4f4287",
     "m_Id": 0,
-    "m_DisplayName": "Noise Tiling",
+    "m_DisplayName": "Smoothness tiling",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -6882,10 +6882,10 @@
     "m_Guid": {
         "m_GuidSerialized": "d095288f-4a69-4129-8b56-59e66b1619c2"
     },
-    "m_Name": "NormalMapTiling",
+    "m_Name": "NormalMap Tiling",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NormalMapTiling",
-    "m_DefaultReferenceName": "_NormalMapTiling",
+    "m_RefNameGeneratedByDisplayName": "NormalMap Tiling",
+    "m_DefaultReferenceName": "_NormalMap_Tiling",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -7019,7 +7019,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "9ffa3867220d4fd5af16c5753e1d3179",
     "m_Id": 0,
-    "m_DisplayName": "Noise Texture",
+    "m_DisplayName": "Smoothness Texture",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7064,10 +7064,10 @@
     "m_Guid": {
         "m_GuidSerialized": "9c45dd40-79ff-4054-8c74-c18264c0e8a6"
     },
-    "m_Name": "NoiseSparkling",
+    "m_Name": "Smoothness Strength",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NoiseSparkling",
-    "m_DefaultReferenceName": "_NoiseSparkling",
+    "m_RefNameGeneratedByDisplayName": "Smoothness Strength",
+    "m_DefaultReferenceName": "_Smoothness_Strength",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -7079,7 +7079,7 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 3.0,
+    "m_Value": 0.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -7192,7 +7192,7 @@
     "m_Guid": {
         "m_GuidSerialized": "83633779-1b96-4057-afa2-7bf0a285a305"
     },
-    "m_Name": "Noise Texture",
+    "m_Name": "Smoothness Texture",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_4AE29293",
@@ -7230,8 +7230,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 4995.00048828125,
-            "y": 765.0000610351563,
+            "x": 4970.0,
+            "y": 654.0,
             "width": 130.0,
             "height": 118.0
         }
@@ -7317,7 +7317,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "a7a05827d4aa481f834a617b45250cf5",
     "m_Id": 0,
-    "m_DisplayName": "Noise Texture",
+    "m_DisplayName": "Smoothness Texture",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7790,7 +7790,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "b8568160b05f4ac2a7eb512c1eca91ab",
     "m_Id": 0,
-    "m_DisplayName": "BaseMapTiling",
+    "m_DisplayName": "Main Texture Tiling",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7949,10 +7949,10 @@
     "m_Guid": {
         "m_GuidSerialized": "c0c984e3-1be1-4141-ba61-ec6470e75f59"
     },
-    "m_Name": "TesselationFactor",
+    "m_Name": "Tesselation Factor",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "TesselationFactor",
-    "m_DefaultReferenceName": "_TesselationFactor",
+    "m_RefNameGeneratedByDisplayName": "Tesselation Factor",
+    "m_DefaultReferenceName": "_Tesselation_Factor",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -8183,8 +8183,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 4837.99951171875,
-            "y": 825.0,
+            "x": 4813.0,
+            "y": 714.0,
             "width": 132.0,
             "height": 94.0
         }
@@ -8725,8 +8725,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 5506.00048828125,
-            "y": 800.0000610351563,
+            "x": 5464.0,
+            "y": 654.0,
             "width": 130.0,
             "height": 118.0
         }
@@ -9128,7 +9128,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "dfc066e621b645e0872d280291da5f48",
     "m_Id": 0,
-    "m_DisplayName": "EdgeFadeStart",
+    "m_DisplayName": "Edge Fade Start",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -9461,10 +9461,10 @@
     "m_Guid": {
         "m_GuidSerialized": "8e1e45d4-2c4b-4f02-9726-ae50a3f05001"
     },
-    "m_Name": "EdgeFadeStart",
+    "m_Name": "Edge Fade Start",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "EdgeFadeStart",
-    "m_DefaultReferenceName": "_EdgeFadeStart",
+    "m_RefNameGeneratedByDisplayName": "Edge Fade Start",
+    "m_DefaultReferenceName": "_Edge_Fade_Start",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -9543,8 +9543,8 @@
     "m_ObjectId": "eaecd62ad25341ab9c12264684a5dd87",
     "m_Title": "Calculate lerp param",
     "m_Position": {
-        "x": 2749.0,
-        "y": -512.0
+        "x": 2748.999755859375,
+        "y": -511.9999084472656
     }
 }
 
@@ -9631,7 +9631,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ed8cd2f3f1d2427a869f2ed8589dae81",
     "m_Id": 0,
-    "m_DisplayName": "TesselationFactor",
+    "m_DisplayName": "Tesselation Factor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -9803,10 +9803,10 @@
     "m_Guid": {
         "m_GuidSerialized": "7b4021e4-575e-47de-afe1-3c10b6925996"
     },
-    "m_Name": "EdgeFadeEnd",
+    "m_Name": "Edge Fade End",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "EdgeFadeEnd",
-    "m_DefaultReferenceName": "_EdgeFadeEnd",
+    "m_RefNameGeneratedByDisplayName": "Edge Fade End",
+    "m_DefaultReferenceName": "_Edge_Fade_End",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
