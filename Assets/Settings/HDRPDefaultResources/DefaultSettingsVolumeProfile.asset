@@ -406,7 +406,7 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0
   maximumVelocity:
     m_OverrideState: 1
     m_Value: 200
@@ -1389,7 +1389,7 @@ MonoBehaviour:
     m_Value: 1
   enable:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   length:
     m_OverrideState: 1
     m_Value: 0.15
@@ -1704,7 +1704,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0
   scatter:
     m_OverrideState: 1
     m_Value: 0.7
@@ -1747,7 +1747,7 @@ MonoBehaviour:
     m_Value: 1
   cloudType:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   skyAmbientMode:
     m_OverrideState: 1
     m_Value: 1
@@ -1788,7 +1788,7 @@ MonoBehaviour:
   active: 1
   enable:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   triangleSize:
     m_OverrideState: 1
     m_Value: 30
@@ -1876,16 +1876,16 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 13.538745
+    m_Value: 9
   compensation:
     m_OverrideState: 1
     m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: -1
+    m_Value: 1.6340429
   limitMax:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 9.106382
   curveMap:
     m_OverrideState: 1
     m_Value:
@@ -2359,13 +2359,13 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0
   directLightingStrength:
     m_OverrideState: 1
     m_Value: 0
   radius:
     m_OverrideState: 1
-    m_Value: 1.5
+    m_Value: 2
   spatialBilateralAggressiveness:
     m_OverrideState: 1
     m_Value: 0.15
@@ -2434,7 +2434,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   useFullACES:
     m_OverrideState: 1
     m_Value: 0
@@ -2505,7 +2505,7 @@ MonoBehaviour:
   interCascadeBorders: 1
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 150
+    m_Value: 500
   directionalTransmissionMultiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -2523,10 +2523,10 @@ MonoBehaviour:
     m_Value: 0.3
   cascadeShadowBorder0:
     m_OverrideState: 1
-    m_Value: 0.06905067
+    m_Value: 0
   cascadeShadowBorder1:
     m_OverrideState: 1
-    m_Value: 0.05086228
+    m_Value: 0
   cascadeShadowBorder2:
     m_OverrideState: 1
     m_Value: 0

@@ -7,7 +7,7 @@ void CalculateHeight_float(
     float2 uv,
     float blurSize,
     out float result)
-{
+{    
     float mean_height = 0;
     const int iterations = 9;
 
@@ -24,6 +24,7 @@ void CalculateHeight_float(
     }
 
     result = saturate(mean_height / iterations);
+    
 }
 
 #endif
