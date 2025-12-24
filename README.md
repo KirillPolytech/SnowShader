@@ -26,9 +26,8 @@ Noise Sparkling - в процессе. <br/>
 Tesselation Factor - сила тесселяции. <br/>
  
 ## Скриншоты
-
-![Пример снега на объекте](Screenshots/Example1.png)  
-![Снег на террейне](Screenshots/example2.png)
+<img src="Screenshots/Example1.png" width="500" />
+<img src="Screenshots/Example2.png" width="500" />
 
 # Предупреждения
 
