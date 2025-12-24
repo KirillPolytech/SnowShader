@@ -7,22 +7,22 @@
 - Настраиваемые параметры:
   
 <br/>
-MainTexture - основная текстура снега. <br/>
+Main Texture - основная текстура снега. <br/>
 Metallic - металик <br/>
-BaseMapTiling - тайлинг MainTexture <br/>
+Main Texture Tiling - тайлинг MainTexture <br/>
 Bottom Color - цвет нижней части снега при деформации. <br/>
 Normal Texture - текстура нормали снега. <br/>
-NormalMapTiling - тайлинг NormalMap. <br/>
-NormalStength - сила карты нормали. <br/>
+NormalMap Tiling - тайлинг NormalMap. <br/>
+Normal Stength - сила карты нормали. <br/>
 HeightMap - карта высот (текстура) для деформации (RenderTexture). <br/>
-HeightMultiplier - высота снега. <br/>
+Height Multiplier - высота снега. <br/>
 BottomHeight - переменная для определения высоты цвета при деформации. <br/>
-EdgeFadeStart - в процессе. <br/>
-EdgeFadeEnd - в процессе. <br/>
+Edge Fade Start - в процессе. <br/>
+Edge Fade End - в процессе. <br/>
 Splat Dissolve - переменная для размытия границ при деформации. В основном в диапазоне [0,1] <br/>
-Noise Texture - текстура шума. <br/>
-Noise Tiling - тайлинг для Noise Texture. <br/>
-Noise Sparkling - в процессе. <br/>
+Smoothness Texture - текстура Smoothness. <br/>
+Smoothness Tiling - тайлинг для Smoothness Texture. <br/>
+Smoothness Strength - в процессе. <br/>
 Tesselation Factor - сила тесселяции. <br/>
  
 ## Скриншоты
@@ -41,22 +41,22 @@ Snow shader for Unity HDRP/Shader Graph.
 - Compatible with High Definition Render Pipeline (HDRP).
 - Configurable parameters:
 <br/>
-MainTexture - the main texture of snow. <br/>
+Main Texture - the main texture of snow. <br/>
 Metallic - metallic <br/>
-BaseMapTiling - tiling MainTexture <br/>
+Main Texture Tiling - tiling MainTexture <br/>
 Bottom Color - the color of the lower part of the snow during deformation. <br/>
 Normal Texture - the texture of the snow normality. <br/>
-NormalMapTiling - NormalMap tiling. <br/>
-NormalStength - the strength of the normal map. <br/>
+NormalMap Tiling - tiling NormalMap. <br/>
+Normal Stength - the strength of the normal card. <br/>
 HeightMap is a height map (texture) for the deformation (RenderTexture). <br/>
-HeightMultiplier - the height of the snow. <br/>
+Height Multiplier - the height of the snow. <br/>
 BottomHeight is a variable for determining the height of a color during deformation. <br/>
-EdgeFadeStart is in progress. <br/>
-EdgeFadeEnd is in progress. <br/>
+Edge Fade Start is in progress. <br/>
+Edge Fade End is in progress. <br/>
 Splat Dissolve is a variable for blurring borders during deformation. Mostly in the range of [0.1] <br/>
-Noise Texture - noise texture. <br/>
-Noise Tiling - tiling for Noise Texture. <br/>
-Noise Sparkling is in progress. <br/>
+Smoothness Texture - texture of Smoothness. <br/>
+Smoothness Tiling - tiling for Smoothness Texture. <br/>
+Smoothness Strength is in progress. <br/>
 Tesselation Factor - the power of tessellation. <br/>
 
 # Warnings
