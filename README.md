@@ -7,24 +7,24 @@
 - Деформация снега на основе Render Texture.
 - Совместимость с High Definition Render Pipeline (HDRP).
 - Настраиваемые параметры:
-MainTexture - основная текстура снега.
-Metallic - металик
-BaseMapTiling - тайлинг MainTexture
-Bottom Color - цвет нижней части снега при деформации.
-Normal Texture - текстура нормали снега.
-NormalMapTiling - тайлинг NormalMap.
-NormalStength - сила карты нормали.
-HeightMap - карта высот (текстура) для деформации (RenderTexture).
-HeightMultiplier - высота снега.
-BottomHeight - переменная для определения высоты цвета при деформации.
-EdgeFadeStart - в процессе.
-EdgeFadeEnd - в процессе.
-Splat Dissolve - переменная для размытия границ при деформации. В основном в диапазоне [0,1]
-Noise Texture - текстура шума.
-Noise Tiling - тайлинг для Noise Texture.
-Noise Sparkling - в процессе.
-Tesselation Factor - сила тесселяции.
-
+<br/>MainTexture - основная текстура снега. <br/>
+Metallic - металик <br/>
+BaseMapTiling - тайлинг MainTexture <br/>
+Bottom Color - цвет нижней части снега при деформации. <br/>
+Normal Texture - текстура нормали снега. <br/>
+NormalMapTiling - тайлинг NormalMap. <br/>
+NormalStength - сила карты нормали. <br/>
+HeightMap - карта высот (текстура) для деформации (RenderTexture). <br/>
+HeightMultiplier - высота снега. <br/>
+BottomHeight - переменная для определения высоты цвета при деформации. <br/>
+EdgeFadeStart - в процессе. <br/>
+EdgeFadeEnd - в процессе. <br/>
+Splat Dissolve - переменная для размытия границ при деформации. В основном в диапазоне [0,1] <br/>
+Noise Texture - текстура шума. <br/>
+Noise Tiling - тайлинг для Noise Texture. <br/>
+Noise Sparkling - в процессе. <br/>
+Tesselation Factor - сила тесселяции. <br/>
+ 
 ## Скриншоты
 
 ![Пример снега на объекте](Screenshots/Example1.png)  
