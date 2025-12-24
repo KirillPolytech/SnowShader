@@ -1,48 +1,50 @@
-using System;
 using UnityEngine;
 
-public class Raycast : MonoBehaviour
+namespace SnowShader
 {
-    [SerializeField]
-    private Camera cam;
-
-    [SerializeField]
-    private float texScale = 0.5f;
-
-    [SerializeField]
-    private float rayCastLength = 1000;
-
-    [SerializeField]
-    private Texture2D tex;
-
-    private RaycastHit _hit;
-    private Ray _ray;
-
-    private void Update()
+    public class Raycast : MonoBehaviour
     {
-        Cast();
-    }
+        [SerializeField]
+        private Camera cam;
 
-    private void Cast()
-    {
-        if (!Input.GetMouseButtonDown(0))
-            return;
+        [SerializeField]
+        private float texScale = 0.5f;
 
-        _ray = cam.ScreenPointToRay(Input.mousePosition);
+        [SerializeField]
+        private float rayCastLength = 1000;
 
-        if (!Physics.Raycast(_ray, out _hit, rayCastLength))
-            return;
+        [SerializeField]
+        private Texture2D tex;
 
-        if (_hit.collider.TryGetComponent(out Snow snow))
+        private RaycastHit _hit;
+        private Ray _ray;
+
+        private void Update()
         {
-            snow.Draw(_hit.textureCoord2, 0, texScale, tex);
+            Cast();
         }
-    }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
+        private void Cast()
+        {
+            if (!Input.GetMouseButtonDown(0))
+                return;
 
-        Gizmos.DrawRay(_ray);
+            _ray = cam.ScreenPointToRay(Input.mousePosition);
+
+            if (!Physics.Raycast(_ray, out _hit, rayCastLength))
+                return;
+
+            if (_hit.collider.TryGetComponent(out Snow snow))
+            {
+                snow.Draw(_hit.textureCoord2, 0, texScale, tex);
+            }
+        }
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.red;
+
+            Gizmos.DrawRay(_ray);
+        }
     }
 }

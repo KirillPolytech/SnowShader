@@ -1,28 +1,31 @@
 ﻿using UnityEngine;
 
-public class Snow : MonoBehaviour
+namespace SnowShader
 {
-    private static readonly int DrawPosition = Shader.PropertyToID("_DrawPosition");
-    private static readonly int DrawAngle = Shader.PropertyToID("_DrawAngle");
-    private static readonly int DrawBrush = Shader.PropertyToID("_DrawBrush");
-    private static readonly int Scale = Shader.PropertyToID("_Scale");
-
-    [SerializeField]
-    private CustomRenderTexture snowHeightMap;
-
-    [SerializeField]
-    private Material snowHeightMapUpdater;
-    
-    private void Awake()
+    public class Snow : MonoBehaviour
     {
-        snowHeightMap.Initialize();
-    }
+        private static readonly int DrawPosition = Shader.PropertyToID("_DrawPosition");
+        private static readonly int DrawAngle = Shader.PropertyToID("_DrawAngle");
+        private static readonly int DrawBrush = Shader.PropertyToID("_DrawBrush");
+        private static readonly int Scale = Shader.PropertyToID("_Scale");
 
-    public void Draw(Vector3 uvCoords, float angle, float scale, Texture2D texture2D)
-    {
-        snowHeightMapUpdater.SetFloat(Scale, scale);
-        snowHeightMapUpdater.SetTexture(DrawBrush, texture2D);
-        snowHeightMapUpdater.SetVector(DrawPosition, uvCoords);
-        snowHeightMapUpdater.SetFloat(DrawAngle, angle);
+        [SerializeField]
+        private CustomRenderTexture snowHeightMap;
+
+        [SerializeField]
+        private Material snowHeightMapUpdater;
+
+        private void Awake()
+        {
+            snowHeightMap.Initialize();
+        }
+
+        public void Draw(Vector3 uvCoords, float angle, float scale, Texture2D texture2D)
+        {
+            snowHeightMapUpdater.SetFloat(Scale, scale);
+            snowHeightMapUpdater.SetTexture(DrawBrush, texture2D);
+            snowHeightMapUpdater.SetVector(DrawPosition, uvCoords);
+            snowHeightMapUpdater.SetFloat(DrawAngle, angle);
+        }
     }
 }
