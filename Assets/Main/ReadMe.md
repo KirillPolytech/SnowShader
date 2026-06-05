@@ -1,37 +1,3 @@
-# SnowShader
-Шейдер снега для Unity HDRP/Shader Graph.
-
-## Особенности
-- Деформация снега на основе Render Texture.
-- Совместимость с High Definition Render Pipeline (HDRP).
-- Настраиваемые параметры:
-  
-<br/>
-MainTexture - основная текстура снега. <br/>
-Metallic - металик <br/>
-BaseMapTiling - тайлинг MainTexture <br/>
-Bottom Color - цвет нижней части снега при деформации. <br/>
-Normal Texture - текстура нормали снега. <br/>
-NormalMapTiling - тайлинг NormalMap. <br/>
-NormalStength - сила карты нормали. <br/>
-HeightMap - карта высот (текстура) для деформации (RenderTexture). <br/>
-HeightMultiplier - высота снега. <br/>
-BottomHeight - переменная для определения высоты цвета при деформации. <br/>
-EdgeFadeStart - в процессе. <br/>
-EdgeFadeEnd - в процессе. <br/>
-Splat Dissolve - переменная для размытия границ при деформации. В основном в диапазоне [0,1] <br/>
-Noise Texture - текстура шума. <br/>
-Noise Tiling - тайлинг для Noise Texture. <br/>
-Noise Sparkling - в процессе. <br/>
-Tesselation Factor - сила тесселяции. <br/>
- 
-## Скриншоты
-<img src="Screenshots/Example1.png" width="500" />
-<img src="Screenshots/Example2.png" width="500" />
-
-# Предупреждения
-Для корректной работы шейдера текстура кисти должна использовать Wrap Mode, отличный от Repeat, и не должна касаться своих собственных краев. Background кисти должен быть белым.
-
 # ENG
 # SnowShader
 Snow shader for Unity HDRP/Shader Graph.
